@@ -9,7 +9,7 @@ def main():
 
     package_path = PosixPath("/workspace/monitoring_alertmanager")
     package_path.mkdir()
-    (package_path / "__init__.py").open('w').close()
+    (package_path / "__init__.py").open("w").close()
 
     bin_path = PosixPath("/workspace/bin")
     bin_path.mkdir(parents=True, exist_ok=True)
