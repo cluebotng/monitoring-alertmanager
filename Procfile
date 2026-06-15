@@ -1,1 +1,1 @@
-alertmanager: python scripts/entrypoint.py
+alertmanager: monitoring_alertmanager/entrypoint.py
